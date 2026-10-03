@@ -1,0 +1,16 @@
+# torch 2.2.2 is the last release with Intel-macOS wheels; it also runs on Linux and Apple Silicon.
+# transformers / sentence-transformers are pinned to versions that still import on torch 2.2.
+torch==2.2.2
+transformers==4.44.2
+sentence-transformers==3.1.1
+numpy<2
+
+psycopg2-binary==2.9.9
+pgvector==0.5.0
+arxiv==2.1.0
+PyMuPDF==1.23.8
+requests>=2.31
+python-dotenv>=1.0
+rich>=13.7
+
+pytest>=8.0

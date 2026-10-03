@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgvector-arxiv-search"
+version = "0.1.0"
+description = "Semantic + hybrid search over arXiv papers with PostgreSQL and pgvector"
+requires-python = ">=3.10"
+
+[project.scripts]
+arxiv-search = "arxiv_search.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

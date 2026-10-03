@@ -1,0 +1,148 @@
+<svg class="rich-terminal" viewBox="0 0 1629 586.8" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generated with Rich https://www.textualize.io -->
+    <style>
+
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Regular"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Regular.woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Bold"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Bold.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Bold.woff") format("woff");
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    .terminal-1475890891-matrix {
+        font-family: Fira Code, monospace;
+        font-size: 20px;
+        line-height: 24.4px;
+        font-variant-east-asian: full-width;
+    }
+
+    .terminal-1475890891-title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: arial;
+    }
+
+    .terminal-1475890891-r1 { fill: #98e024;font-weight: bold }
+.terminal-1475890891-r2 { fill: #d9d9d9 }
+.terminal-1475890891-r3 { fill: #98e024 }
+.terminal-1475890891-r4 { fill: #58d1eb;font-weight: bold }
+.terminal-1475890891-r5 { fill: #d9d9d9;font-weight: bold }
+.terminal-1475890891-r6 { fill: #58d1eb }
+.terminal-1475890891-r7 { fill: #878787 }
+    </style>
+
+    <defs>
+    <clipPath id="terminal-1475890891-clip-terminal">
+      <rect x="0" y="0" width="1609.3999999999999" height="535.8" />
+    </clipPath>
+    <clipPath id="terminal-1475890891-line-0">
+    <rect x="0" y="1.5" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-1">
+    <rect x="0" y="25.9" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-2">
+    <rect x="0" y="50.3" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-3">
+    <rect x="0" y="74.7" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-4">
+    <rect x="0" y="99.1" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-5">
+    <rect x="0" y="123.5" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-6">
+    <rect x="0" y="147.9" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-7">
+    <rect x="0" y="172.3" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-8">
+    <rect x="0" y="196.7" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-9">
+    <rect x="0" y="221.1" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-10">
+    <rect x="0" y="245.5" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-11">
+    <rect x="0" y="269.9" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-12">
+    <rect x="0" y="294.3" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-13">
+    <rect x="0" y="318.7" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-14">
+    <rect x="0" y="343.1" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-15">
+    <rect x="0" y="367.5" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-16">
+    <rect x="0" y="391.9" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-17">
+    <rect x="0" y="416.3" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-18">
+    <rect x="0" y="440.7" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-19">
+    <rect x="0" y="465.1" width="1610.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-1475890891-line-20">
+    <rect x="0" y="489.5" width="1610.4" height="24.65"/>
+            </clipPath>
+    </defs>
+
+    <rect fill="#0c0c0c" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1627" height="584.8" rx="8"/><text class="terminal-1475890891-title" fill="#d9d9d9" text-anchor="middle" x="813" y="27">vector&#160;search</text>
+            <g transform="translate(26,22)">
+            <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
+            <circle cx="22" cy="0" r="7" fill="#febc2e"/>
+            <circle cx="44" cy="0" r="7" fill="#28c840"/>
+            </g>
+        
+    <g transform="translate(9, 41)" clip-path="url(#terminal-1475890891-clip-terminal)">
+    
+    <g class="terminal-1475890891-matrix">
+    <text class="terminal-1475890891-r1" x="0" y="20" textLength="12.2" clip-path="url(#terminal-1475890891-line-0)">$</text><text class="terminal-1475890891-r2" x="12.2" y="20" textLength="378.2" clip-path="url(#terminal-1475890891-line-0)">&#160;python&#160;-m&#160;arxiv_search&#160;search&#160;</text><text class="terminal-1475890891-r3" x="390.4" y="20" textLength="73.2" clip-path="url(#terminal-1475890891-line-0)">&quot;BM25&quot;</text><text class="terminal-1475890891-r2" x="463.6" y="20" textLength="280.6" clip-path="url(#terminal-1475890891-line-0)">&#160;--mode&#160;vector&#160;--limit&#160;</text><text class="terminal-1475890891-r4" x="744.2" y="20" textLength="12.2" clip-path="url(#terminal-1475890891-line-0)">3</text><text class="terminal-1475890891-r2" x="1610.4" y="20" textLength="12.2" clip-path="url(#terminal-1475890891-line-0)">
+</text><text class="terminal-1475890891-r5" x="0" y="44.4" textLength="61" clip-path="url(#terminal-1475890891-line-1)">query</text><text class="terminal-1475890891-r3" x="73.2" y="44.4" textLength="73.2" clip-path="url(#terminal-1475890891-line-1)">&quot;BM25&quot;</text><text class="terminal-1475890891-r5" x="170.8" y="44.4" textLength="48.8" clip-path="url(#terminal-1475890891-line-1)">mode</text><text class="terminal-1475890891-r2" x="219.6" y="44.4" textLength="85.4" clip-path="url(#terminal-1475890891-line-1)">&#160;vector</text><text class="terminal-1475890891-r2" x="1610.4" y="44.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-1)">
+</text><text class="terminal-1475890891-r2" x="0" y="68.8" textLength="1610.4" clip-path="url(#terminal-1475890891-line-2)">┏━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓</text><text class="terminal-1475890891-r2" x="1610.4" y="68.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-2)">
+</text><text class="terminal-1475890891-r2" x="0" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">┃</text><text class="terminal-1475890891-r5" x="24.4" y="93.2" textLength="24.4" clip-path="url(#terminal-1475890891-line-3)">&#160;#</text><text class="terminal-1475890891-r2" x="61" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">┃</text><text class="terminal-1475890891-r5" x="85.4" y="93.2" textLength="585.6" clip-path="url(#terminal-1475890891-line-3)">paper&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="683.2" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">┃</text><text class="terminal-1475890891-r5" x="707.6" y="93.2" textLength="61" clip-path="url(#terminal-1475890891-line-3)">&#160;&#160;cos</text><text class="terminal-1475890891-r2" x="780.8" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">┃</text><text class="terminal-1475890891-r5" x="805.2" y="93.2" textLength="780.8" clip-path="url(#terminal-1475890891-line-3)">best&#160;matching&#160;passage&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">┃</text><text class="terminal-1475890891-r2" x="1610.4" y="93.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-3)">
+</text><text class="terminal-1475890891-r2" x="0" y="117.6" textLength="1610.4" clip-path="url(#terminal-1475890891-line-4)">┡━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩</text><text class="terminal-1475890891-r2" x="1610.4" y="117.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-4)">
+</text><text class="terminal-1475890891-r2" x="0" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">│</text><text class="terminal-1475890891-r2" x="24.4" y="142" textLength="24.4" clip-path="url(#terminal-1475890891-line-5)">&#160;1</text><text class="terminal-1475890891-r2" x="61" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">│</text><text class="terminal-1475890891-r5" x="85.4" y="142" textLength="536.8" clip-path="url(#terminal-1475890891-line-5)">ScholarCatalyst:&#160;A&#160;Benchmark&#160;for&#160;Retrieving&#160;</text><text class="terminal-1475890891-r2" x="683.2" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">│</text><text class="terminal-1475890891-r2" x="707.6" y="142" textLength="61" clip-path="url(#terminal-1475890891-line-5)">0.423</text><text class="terminal-1475890891-r2" x="780.8" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">│</text><text class="terminal-1475890891-r6" x="805.2" y="142" textLength="305" clip-path="url(#terminal-1475890891-line-5)">[4.2&#160;MAIN&#160;RESULTS&#160;(p.7)]&#160;</text><text class="terminal-1475890891-r2" x="1110.2" y="142" textLength="475.8" clip-path="url(#terminal-1475890891-line-5)">BM25&#160;0.16&#160;0.12&#160;0.23&#160;0.39&#160;0.21&#160;0.12&#160;0.26</text><text class="terminal-1475890891-r2" x="1598.2" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="142" textLength="12.2" clip-path="url(#terminal-1475890891-line-5)">
+</text><text class="terminal-1475890891-r2" x="0" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">│</text><text class="terminal-1475890891-r2" x="61" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">│</text><text class="terminal-1475890891-r5" x="85.4" y="166.4" textLength="390.4" clip-path="url(#terminal-1475890891-line-6)">Papers&#160;That&#160;Inspire&#160;New&#160;Research</text><text class="terminal-1475890891-r2" x="683.2" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">│</text><text class="terminal-1475890891-r2" x="780.8" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">│</text><text class="terminal-1475890891-r2" x="805.2" y="166.4" textLength="780.8" clip-path="url(#terminal-1475890891-line-6)">0.45&#160;LateOn&#160;0.1B&#160;0.16&#160;0.12&#160;0.24&#160;0.37&#160;0.27&#160;0.16&#160;0.33&#160;0.55&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="166.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-6)">
+</text><text class="terminal-1475890891-r2" x="0" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">│</text><text class="terminal-1475890891-r2" x="61" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">│</text><text class="terminal-1475890891-r7" x="85.4" y="190.8" textLength="549" clip-path="url(#terminal-1475890891-line-7)">2610.02202&#160;·&#160;2026-10-01&#160;·&#160;cs.AI,&#160;cs.CL,&#160;cs.IR</text><text class="terminal-1475890891-r2" x="683.2" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">│</text><text class="terminal-1475890891-r2" x="780.8" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">│</text><text class="terminal-1475890891-r2" x="805.2" y="190.8" textLength="780.8" clip-path="url(#terminal-1475890891-line-7)">SPECTER2&#160;0.13&#160;0.10&#160;0.20&#160;0.38&#160;0.18&#160;0.11&#160;0.23&#160;0.42&#160;OpenScholar&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="190.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-7)">
+</text><text class="terminal-1475890891-r2" x="0" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">│</text><text class="terminal-1475890891-r2" x="61" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">│</text><text class="terminal-1475890891-r2" x="683.2" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">│</text><text class="terminal-1475890891-r2" x="780.8" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">│</text><text class="terminal-1475890891-r2" x="805.2" y="215.2" textLength="780.8" clip-path="url(#terminal-1475890891-line-8)">0.16&#160;0.13&#160;0.23&#160;0.40&#160;0.19&#160;0.12&#160;0.24&#160;0.46&#160;Qwen3-Emb-4B&#160;0.25&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="215.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-8)">
+</text><text class="terminal-1475890891-r2" x="0" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">│</text><text class="terminal-1475890891-r2" x="61" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">│</text><text class="terminal-1475890891-r2" x="683.2" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">│</text><text class="terminal-1475890891-r2" x="780.8" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">│</text><text class="terminal-1475890891-r2" x="805.2" y="239.6" textLength="780.8" clip-path="url(#terminal-1475890891-line-9)">0.18...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="239.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-9)">
+</text><text class="terminal-1475890891-r2" x="0" y="264" textLength="1610.4" clip-path="url(#terminal-1475890891-line-10)">├────┼──────────────────────────────────────────────────┼───────┼──────────────────────────────────────────────────────────────────┤</text><text class="terminal-1475890891-r2" x="1610.4" y="264" textLength="12.2" clip-path="url(#terminal-1475890891-line-10)">
+</text><text class="terminal-1475890891-r2" x="0" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">│</text><text class="terminal-1475890891-r2" x="24.4" y="288.4" textLength="24.4" clip-path="url(#terminal-1475890891-line-11)">&#160;2</text><text class="terminal-1475890891-r2" x="61" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">│</text><text class="terminal-1475890891-r5" x="85.4" y="288.4" textLength="536.8" clip-path="url(#terminal-1475890891-line-11)">Role-aware&#160;Heuristic&#160;Episodic&#160;Attention&#160;for&#160;</text><text class="terminal-1475890891-r2" x="683.2" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">│</text><text class="terminal-1475890891-r2" x="707.6" y="288.4" textLength="61" clip-path="url(#terminal-1475890891-line-11)">0.358</text><text class="terminal-1475890891-r2" x="780.8" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">│</text><text class="terminal-1475890891-r6" x="805.2" y="288.4" textLength="305" clip-path="url(#terminal-1475890891-line-11)">[4.2&#160;Main&#160;Results&#160;(p.5)]&#160;</text><text class="terminal-1475890891-r2" x="1110.2" y="288.4" textLength="475.8" clip-path="url(#terminal-1475890891-line-11)">The&#160;long-horizon&#160;results&#160;also&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="288.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-11)">
+</text><text class="terminal-1475890891-r2" x="0" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">│</text><text class="terminal-1475890891-r2" x="61" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">│</text><text class="terminal-1475890891-r5" x="85.4" y="312.8" textLength="231.8" clip-path="url(#terminal-1475890891-line-12)">Conversational&#160;LLMs</text><text class="terminal-1475890891-r2" x="683.2" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">│</text><text class="terminal-1475890891-r2" x="780.8" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">│</text><text class="terminal-1475890891-r2" x="805.2" y="312.8" textLength="780.8" clip-path="url(#terminal-1475890891-line-12)">distinguish&#160;contextmanagement&#160;policies.&#160;Recent-k&#160;scores&#160;5.03,&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="312.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-12)">
+</text><text class="terminal-1475890891-r2" x="0" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">│</text><text class="terminal-1475890891-r2" x="61" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">│</text><text class="terminal-1475890891-r7" x="85.4" y="337.2" textLength="378.2" clip-path="url(#terminal-1475890891-line-13)">2610.00958&#160;·&#160;2026-10-01&#160;·&#160;cs.CL</text><text class="terminal-1475890891-r2" x="683.2" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">│</text><text class="terminal-1475890891-r2" x="780.8" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">│</text><text class="terminal-1475890891-r2" x="805.2" y="337.2" textLength="780.8" clip-path="url(#terminal-1475890891-line-13)">compared&#160;with&#160;6.32&#160;for&#160;full&#160;history,&#160;illustrating&#160;the&#160;cost&#160;of&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="337.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-13)">
+</text><text class="terminal-1475890891-r2" x="0" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">│</text><text class="terminal-1475890891-r2" x="61" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">│</text><text class="terminal-1475890891-r2" x="683.2" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">│</text><text class="terminal-1475890891-r2" x="780.8" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">│</text><text class="terminal-1475890891-r2" x="805.2" y="361.6" textLength="780.8" clip-path="url(#terminal-1475890891-line-14)">restricting&#160;access&#160;to&#160;earlier&#160;exchanges.&#160;BM25&#160;reaches&#160;6.65,&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="361.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-14)">
+</text><text class="terminal-1475890891-r2" x="0" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">│</text><text class="terminal-1475890891-r2" x="61" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">│</text><text class="terminal-1475890891-r2" x="683.2" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">│</text><text class="terminal-1475890891-r2" x="780.8" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">│</text><text class="terminal-1475890891-r2" x="805.2" y="386" textLength="780.8" clip-path="url(#terminal-1475890891-line-15)">showin...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="386" textLength="12.2" clip-path="url(#terminal-1475890891-line-15)">
+</text><text class="terminal-1475890891-r2" x="0" y="410.4" textLength="1610.4" clip-path="url(#terminal-1475890891-line-16)">├────┼──────────────────────────────────────────────────┼───────┼──────────────────────────────────────────────────────────────────┤</text><text class="terminal-1475890891-r2" x="1610.4" y="410.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-16)">
+</text><text class="terminal-1475890891-r2" x="0" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">│</text><text class="terminal-1475890891-r2" x="24.4" y="434.8" textLength="24.4" clip-path="url(#terminal-1475890891-line-17)">&#160;3</text><text class="terminal-1475890891-r2" x="61" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">│</text><text class="terminal-1475890891-r5" x="85.4" y="434.8" textLength="561.2" clip-path="url(#terminal-1475890891-line-17)">Evaluating&#160;Biomedical&#160;Reranking&#160;for&#160;LLM-Based&#160;</text><text class="terminal-1475890891-r2" x="683.2" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">│</text><text class="terminal-1475890891-r2" x="707.6" y="434.8" textLength="61" clip-path="url(#terminal-1475890891-line-17)">0.337</text><text class="terminal-1475890891-r2" x="780.8" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">│</text><text class="terminal-1475890891-r6" x="805.2" y="434.8" textLength="231.8" clip-path="url(#terminal-1475890891-line-17)">[2.&#160;METHODS&#160;(p.2)]&#160;</text><text class="terminal-1475890891-r2" x="1037" y="434.8" textLength="549" clip-path="url(#terminal-1475890891-line-17)">contributions.&#160;The&#160;0.30/0.70&#160;weights&#160;were&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="434.8" textLength="12.2" clip-path="url(#terminal-1475890891-line-17)">
+</text><text class="terminal-1475890891-r2" x="0" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">│</text><text class="terminal-1475890891-r2" x="61" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">│</text><text class="terminal-1475890891-r5" x="85.4" y="459.2" textLength="561.2" clip-path="url(#terminal-1475890891-line-18)">Question&#160;Answering&#160;over&#160;Longitudinal&#160;Clinical&#160;</text><text class="terminal-1475890891-r2" x="683.2" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">│</text><text class="terminal-1475890891-r2" x="780.8" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">│</text><text class="terminal-1475890891-r2" x="805.2" y="459.2" textLength="780.8" clip-path="url(#terminal-1475890891-line-18)">selected&#160;during&#160;development&#160;based&#160;on&#160;retrieval&#160;performance,&#160;with</text><text class="terminal-1475890891-r2" x="1598.2" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="459.2" textLength="12.2" clip-path="url(#terminal-1475890891-line-18)">
+</text><text class="terminal-1475890891-r2" x="0" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">│</text><text class="terminal-1475890891-r2" x="61" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">│</text><text class="terminal-1475890891-r5" x="85.4" y="483.6" textLength="61" clip-path="url(#terminal-1475890891-line-19)">Notes</text><text class="terminal-1475890891-r2" x="683.2" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">│</text><text class="terminal-1475890891-r2" x="780.8" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">│</text><text class="terminal-1475890891-r2" x="805.2" y="483.6" textLength="780.8" clip-path="url(#terminal-1475890891-line-19)">BM25&#160;weighted&#160;more&#160;heavily&#160;because&#160;it&#160;performed&#160;better&#160;on&#160;this&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="483.6" textLength="12.2" clip-path="url(#terminal-1475890891-line-19)">
+</text><text class="terminal-1475890891-r2" x="0" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">│</text><text class="terminal-1475890891-r2" x="61" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">│</text><text class="terminal-1475890891-r7" x="85.4" y="508" textLength="463.6" clip-path="url(#terminal-1475890891-line-20)">2610.01324&#160;·&#160;2026-10-01&#160;·&#160;cs.CL,&#160;cs.ET</text><text class="terminal-1475890891-r2" x="683.2" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">│</text><text class="terminal-1475890891-r2" x="780.8" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">│</text><text class="terminal-1475890891-r2" x="805.2" y="508" textLength="780.8" clip-path="url(#terminal-1475890891-line-20)">cohort.&#160;The&#160;denominator&#160;constant&#160;60&#160;is&#160;the&#160;standar...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-1475890891-r2" x="1598.2" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">│</text><text class="terminal-1475890891-r2" x="1610.4" y="508" textLength="12.2" clip-path="url(#terminal-1475890891-line-20)">
+</text><text class="terminal-1475890891-r2" x="0" y="532.4" textLength="1610.4" clip-path="url(#terminal-1475890891-line-21)">└────┴──────────────────────────────────────────────────┴───────┴──────────────────────────────────────────────────────────────────┘</text><text class="terminal-1475890891-r2" x="1610.4" y="532.4" textLength="12.2" clip-path="url(#terminal-1475890891-line-21)">
+</text>
+    </g>
+    </g>
+</svg>
