@@ -21,27 +21,26 @@ PostgreSQL + pgvector 위에 만든 arXiv 논문 의미 검색 시스템입니�
 ## 아키텍처
 
 ```mermaid
-flowchart LR
-    subgraph Ingest["수집 (python -m arxiv_search fetch)"]
-        A[arXiv API] --> B[PDFDownloader<br/>재시도 · %PDF 검증 · 원자적 저장]
-        B --> C[PDFExtractor<br/>2단 읽기 순서 · 머리글 제거 · 섹션 인식]
-        A -- 초록 --> D
-        C --> D[TokenAwareChunker<br/>모델 토크나이저 기준 200토큰 · 20% 중첩]
-        D --> E[Embedder<br/>all-MiniLM-L6-v2 · L2 정규화]
+flowchart TB
+    subgraph Ingest["① 수집: python -m arxiv_search fetch"]
+        direction LR
+        A[arXiv API] --> B["PDFDownloader<br/>재시도 · %PDF 검증"]
+        B --> C["PDFExtractor<br/>2단 읽기 순서 · 섹션 인식"]
+        C --> D["TokenAwareChunker<br/>200토큰 · 20% 중첩"]
+        A -. 초록 .-> D
+        D --> E["Embedder<br/>MiniLM 384d · 정규화"]
     end
-    E -- "논문 1편 = 트랜잭션 1개" --> PG
-    subgraph PG["PostgreSQL + pgvector"]
-        P[(papers<br/>categories GIN)] --- PA[(paper_authors)] --- AU[(authors<br/>normalized_name UNIQUE)]
-        P --- CH[(chunks<br/>embedding HNSW · tsv GIN)]
+    subgraph PG["② PostgreSQL + pgvector (논문 1편 = 트랜잭션 1개)"]
+        direction LR
+        P[("papers<br/>categories GIN")] --- CH[("chunks<br/>HNSW · tsvector GIN")]
+        P --- AU[("authors · paper_authors")]
     end
-    subgraph Query["검색 (search / similar)"]
-        Q[질의] --> V[벡터 후보<br/>HNSW + WHERE 필터<br/>iterative_scan]
-        Q --> K[키워드 후보<br/>websearch_to_tsquery]
-        V --> R[RRF 융합 → 논문 단위 집계]
-        K --> R
+    subgraph Query["③ 검색: python -m arxiv_search search"]
+        direction LR
+        V["벡터 후보<br/>HNSW + WHERE 필터<br/>iterative_scan"] --> R["RRF 융합<br/>→ 논문 단위 집계"]
+        K["키워드 후보<br/>websearch_to_tsquery"] --> R
     end
-    PG --> V
-    PG --> K
+    Ingest --> PG --> Query
 ```
 
 | 컴포넌트 | 파일 | 하는 일 |
