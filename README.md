@@ -99,10 +99,13 @@ PDF 30편을 내려받아 섹션 단위로 청킹했습니다. 실패한 PDF는 
 ### 키워드 vs 벡터
 같은 "BM25" 질의에서 키워드 검색은 단어가 등장하는 본문 문장을, 벡터 검색은 BM25 수치가 나열된 결과 표를 1위로 올립니다. 하이브리드는 RRF로 두 순위를 합칩니다.
 
-<table><tr>
-<td><img src="docs/images/05_mode_keyword.svg" alt="keyword"></td>
-<td><img src="docs/images/05_mode_vector.svg" alt="vector"></td>
-</tr></table>
+**키워드 검색** (`--mode keyword`): "BM25"라는 단어가 실제로 등장하는 본문 문장을 찾습니다.
+
+![keyword search](docs/images/05_mode_keyword.svg)
+
+**벡터 검색** (`--mode vector`): 단어 일치가 아니라 의미가 가까운 청크를 찾아, BM25 점수가 나열된 실험 결과 표를 1위로 올립니다.
+
+![vector search](docs/images/05_mode_vector.svg)
 
 ### 실행 계획: 규모가 작으면 플래너는 HNSW를 쓰지 않는다
 청크 2,147개에서는 필터가 없어도 플래너가 순차 스캔 + top-N 정렬을 고릅니다. 이 규모에서는 정확 검색이 더 싸다는 판단입니다.
